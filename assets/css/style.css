@@ -24,7 +24,7 @@ body {
 /* Default css style end */
 
 /* header section is start */
-header {}
+/* header {} */
 
 .bannerImg {
     position: relative;
@@ -39,11 +39,17 @@ header {}
     color: white;
     text-align: center;
     padding: 5px;
-    border: 1px solid white;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+
+.bannerInnerDetails {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid white;
 }
 
 .bannertitle {
