@@ -24,13 +24,8 @@ body {
 /* Default css style end */
 
 /* header section is start */
-/* .headerBanner {
-    background-image: url('../images/photographer.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0px;
-} */
+header {}
+
 .bannerImg {
     position: relative;
 }
@@ -61,6 +56,36 @@ body {
     font-size: 20px;
     margin: 10px 0px;
     opacity: .8;
+}
+
+.headerMenu {
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+.headerMenu ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.headerMenu ul li {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.headerMenu ul li a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerMenu ul li a:hover {
+    background-color: #ccc;
+    color: black;
 }
 
 /* header section is end */
