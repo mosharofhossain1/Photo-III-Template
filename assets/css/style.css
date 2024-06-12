@@ -1,3 +1,4 @@
+/* Default css style start */
 *,
 ::after,
 ::before,
@@ -10,6 +11,56 @@ li {
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Default css style end */
+
+/* header section is start */
+/* .headerBanner {
+    background-image: url('../images/photographer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+} */
+.bannerImg {
+    position: relative;
+}
+
+.bannerImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerContents {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.bannertitle {
+    font-size: 25px;
+    margin: 20px 0px;
+    opacity: .8;
+}
+
+.bannerSubTitle {
+    font-size: 20px;
+    margin: 10px 0px;
+    opacity: .8;
+}
+
+/* header section is end */
